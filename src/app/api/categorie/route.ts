@@ -6,9 +6,15 @@ export async function GET(req:NextRequest){
   try {
     await DbConnection()
     const categorie =   await BlogModel.find({categorie:filter})
+    if(categorie.length>0){
     return NextResponse.json({
          categorie
+      })}
+      else{
+        return NextResponse.json({
+          "notFound":"No results found"
       })
+      }
   } catch (error) {
     return new Response("Internal Server Error", { status: 500 });
     

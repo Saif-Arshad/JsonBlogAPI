@@ -9,7 +9,15 @@ export async function GET(req:NextRequest){
     try {
         await DbConnection()
         const blog =  await BlogModel.findOne({_id:id})
-        return NextResponse.json({blog},{status:200})
+        if(blog.length>0){
+            return NextResponse.json({blog},{status:200})
+        }
+        else{
+            return NextResponse.json({
+                "notFound":"No results found"
+            })
+
+        }
     } catch (error:any) {
         return NextResponse.json({ error: "Internal Server Error" }, { status: 500 });
     }
