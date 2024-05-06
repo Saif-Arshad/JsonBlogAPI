@@ -24,7 +24,7 @@ const searching = await BlogModel.find({ title: titleRegex });
         }
         else{
             return NextResponse.json({
-                "notFound":"No results found"
+                "notFound":"Your Keyword not found in blog titles"
               });
         }
 

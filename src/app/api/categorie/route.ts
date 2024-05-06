@@ -12,7 +12,8 @@ export async function GET(req:NextRequest){
       })}
       else{
         return NextResponse.json({
-          "notFound":"No results found"
+          "notFound":"Search using keyword in available Categories ",
+          "availableCategories": ["technology","health","lifestyle","food","movie","sport","news","fashion"],
       })
       }
   } catch (error) {
