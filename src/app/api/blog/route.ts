@@ -8,7 +8,7 @@ import { NextResponse } from "next/server";
         await DbConnection()
         const response = await BlogModel.find().lean();
 
-        return NextResponse.json({response})
+        return NextResponse.json({response},{status: 200})
     } catch (error) {
             return NextResponse.json("Something went wrong")
     }   

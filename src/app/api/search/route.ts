@@ -9,11 +9,10 @@ export async function GET(req:NextRequest) {
 
     await DbConnection();
 
-    // Split the search query into individual words
-
 
     const words = search && search.split(/\s+/);
-    // Construct a regular expression to match titles containing all the words
+
+
 const titleRegex = words ? new RegExp(words.map(word => `(?=.*${word})`).join(''), 'i') : null;    
 const searching = await BlogModel.find({ title: titleRegex });
     if(searching.length>0){
@@ -29,7 +28,7 @@ const searching = await BlogModel.find({ title: titleRegex });
         }
 
     } catch (error) {
-    return NextResponse.json({ error: "Internal Server Error" }, { status: 500 });
+    return NextResponse.json({ error: "Something went wrong" }, { status: 500 });
 
   }
 }

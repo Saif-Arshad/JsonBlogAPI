@@ -1,12 +1,12 @@
-
-export default function Home() {
+import Home from "@/components/template/home/Home";
+export default function Homepage() {
 
 
 
   return (
     <>
+    <Home/>
     
-      <h1>Hello World</h1>
     </>
   );
 }

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Header } from "@/components/shared/header/Header";
 import Footer from "@/components/shared/footer/Footer";
-
+import { Providers } from "@/provider.chakra";
 
 export const metadata: Metadata = {
   title: "JSON Blog API",
@@ -17,9 +17,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body >
+        <Providers>
         <Header/>
         {children}
         <Footer/>
+        </Providers>
         </body>
     </html>
   );

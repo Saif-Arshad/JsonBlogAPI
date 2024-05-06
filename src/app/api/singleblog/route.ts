@@ -17,6 +17,6 @@ export async function GET(req: NextRequest) {
             });
         }
     } catch (error) {
-        return NextResponse.json({ error: "Internal Server Error" }, { status: 500 });
+        return NextResponse.json({ error: "Something went wrong" }, { status: 500 });
     }
 }
