@@ -6,9 +6,13 @@ function Intro() {
     <div className=' min-h-screen w-full flex flex-col-reverse md:flex-row'>
         <div className='w-6/12'>
             <h1 className=' font-bold  text-5xl main-heading '>
-                <span className='font-bold text-5xl'>{"{ JSON }  "}</span>
+                <span className='font-bold text-5xl'>JSON</span>
                Blog API
                 </h1>
+
+                <p>
+                    
+                </p>
         </div>
         <div className='w-6/12'>
             <Image
