@@ -1,9 +1,11 @@
 import DbConnection from "@/database/mongodb";
 import BlogModel from "@/models/blog";
+import { request } from "https";
 import { NextRequest, NextResponse } from "next/server";
 
 export async function GET(req: NextRequest) {
-    const id = req.nextUrl.searchParams.get("id");
+    const { searchParams, pathname } = new URL(req.url);
+  const id = pathname.split('/').pop(); 
     try {
         await DbConnection();
         const blog = await BlogModel.findOne({ _id: id });

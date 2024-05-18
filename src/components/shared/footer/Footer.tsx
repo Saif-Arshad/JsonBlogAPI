@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 function Footer() {
   return (
-   <footer className=" body-font">
+   <footer className=" body-font text-black dark:text-white bg-white dark:bg-black">
   <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
   <div className="inline-flex items-center space-x-2">
             <Link href={'/'}>

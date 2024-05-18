@@ -4,7 +4,8 @@ import { NextRequest, NextResponse } from "next/server";
 
 export async function GET(req:NextRequest) {
   try {
-    const search = req.nextUrl.searchParams.get("q");
+    const { searchParams, pathname } = new URL(req.url);
+    const search = pathname.split('/').pop(); 
 
 
     await DbConnection();
