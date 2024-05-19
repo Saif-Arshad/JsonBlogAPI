@@ -5,8 +5,8 @@ import mainImage from '../../../../public/wall-post-animate.svg'
 function Intro() {
   return (
     <div className=' min-h-screen w-full  flex flex-col sm:flex-row'>
-        <div className='w-full sm:w-6/12 mt-20'>
-            <h1 className=' font-bold  text-5xl main-heading '>
+        <div className='w-full sm:w-6/12 mt-20 md:mt-28 '>
+            <h1 data-aos="fade-up" className=' font-bold  text-5xl main-heading '>
                JSON Blog API
                 </h1>
 
