@@ -5,16 +5,16 @@ The JSON Blog API is a freely accessible public REST API that provides dummy dat
 ## Tech Stack Used 
 
 Next JS    
-Tailwind Css   
-Mongodb Atlas  
+Tailwind CSS   
+MongoDB Atlas  
 Restful API   
 ## Hosted
-Hosted on Vercel here is link
+Hosted on Vercel here is the link
 https://jsonblogapi.vercel.app/
 
 ## Documentation
 
-You can fin how to use that api here
+You can find how to use that API here
 https://jsonblogapi.vercel.app/docs
 
 
