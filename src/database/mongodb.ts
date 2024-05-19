@@ -8,12 +8,19 @@ const connectDb = async () => {
         return;
     }
 
+    const mongoUrl = process.env.MONGODB_URL;
+
+    if (!mongoUrl) {
+        console.error("MongoDB URL is not defined");
+        return;
+    }
+
     try {
-        await mongoose.connect(process.env.MONGODB_URL);
+        await mongoose.connect(mongoUrl);
         console.log("Database connected successfully");
         isConnected = true;
     } catch (error) {
-        console.log("Error while connecting with the database", error);
+        console.error("Error while connecting with the database", error);
     }
 }
 

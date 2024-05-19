@@ -72,9 +72,9 @@ export default function DrawerComponent() {
     <div>
       <Button onClick={toggleDrawer(true)}>  
        <Tooltip title="Menu items">
-      <IconButton>
+      {/* <IconButton> */}
         <MenuIcon className="text-black dark:text-white" />
-      </IconButton>
+      {/* </IconButton> */}
     </Tooltip></Button>
       <Drawer open={open} onClose={toggleDrawer(false)}>
         {DrawerList}

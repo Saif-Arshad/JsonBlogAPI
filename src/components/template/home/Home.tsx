@@ -6,7 +6,7 @@ import 'aos/dist/aos.css';
 import Intro from './Intro'
 import TriedLorumData from './TriedLorumData'
 import ExampleCode from './ExampleCode';
-import Route from './Route.tsx';
+import Route from './Route';
 function Home() {
 
   useEffect(() => {

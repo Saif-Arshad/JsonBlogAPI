@@ -9,8 +9,7 @@ function Footer() {
           <span className="font-bold text-3xl">{"{ JSON }"} </span>
           </Link>
         </div>
-    <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2024 JSON Blog API 
-    </p>
+   
     <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
       <Link href={'https://www.facebook.com/profile.php?id=100086295243570'} target='_blank' className="text-gray-500">
         <svg fill="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-5 h-5" viewBox="0 0 24 24">
