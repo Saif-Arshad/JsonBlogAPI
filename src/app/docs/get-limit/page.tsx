@@ -1,6 +1,6 @@
 import SideBar from '@/components/shared/sideBar/SideBar'
 import React from 'react'
-import HowItWorks from '@/components/template/documentation/HowItWorks'
+import GetLimit from '@/components/template/documentation/GetLimit'
 
 function page() {
   return (
@@ -9,7 +9,7 @@ function page() {
       <div className="w-full flex items-center justify-center">
       <div className="flex w-11/12  ">
      <div className="ml-0 sm:ml-[270px]">
-      <HowItWorks/>
+      <GetLimit/>
       </div>
       </div>
      </div>

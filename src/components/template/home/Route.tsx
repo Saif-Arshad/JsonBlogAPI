@@ -1,5 +1,4 @@
 import React from 'react';
-import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 
 function Route() {
   const apiUrl = process.env.NEXT_PUBLIC_URL;
@@ -55,7 +54,6 @@ function Route() {
                   <div className="md:w-1/4">{item.method}</div>
                   <div className="md:w-1/2 break-all">{item.link}</div>
                   <div className="md:w-1/4 flex items-center gap-x-2">
-                    <ArrowRightAltIcon />
                     {item.getting}
                   </div>
                 </div>
