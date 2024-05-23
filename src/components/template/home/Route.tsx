@@ -42,15 +42,15 @@ function Route() {
       <div className="w-full max-w-4xl">
         <h1 className='font-bold text-2xl md:text-4xl mb-4'>All the Routes</h1>
         <div className="">
-          <div className="flex py-2 px-4 border-b border-blue-100 dark:border-black font-semibold text-sm md:text-base">
+          <div className="flex py-2 px-4   font-bold text-sm md:text-base">
             <div className="w-1/4">Method</div>
             <div className="w-1/2">Link</div>
             <div className="w-1/4">Description</div>
           </div>
           {
             allRoutes.map((item, index) => (
-              <div key={index} className="border-b border-blue-100 dark:border-black hover:bg-gray-50 dark:hover:bg-gray-800">
-                <div className="flex flex-col md:flex-row py-2 px-4 text-sm md:text-base">
+              <div key={index} className=" k hover:bg-gray-50 dark:hover:bg-gray-800">
+                <div className="flex flex-col md:flex-row p-4 text-sm md:text-base">
                   <div className="md:w-1/4">{item.method}</div>
                   <div className="md:w-1/2 break-all">{item.link}</div>
                   <div className="md:w-1/4 flex items-center gap-x-2">
