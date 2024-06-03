@@ -4,6 +4,7 @@ import Link from "next/link";
 import DrawerComponent from "../drawer/drawer";
 import { AiFillGithub, AiFillMoon, AiFillSun } from "react-icons/ai";
 import { useTheme } from "next-themes";
+import { FaBug } from "react-icons/fa6";
 
 const menuItems = [
   {
@@ -64,6 +65,9 @@ export function Header() {
             </Link>
             <AiFillMoon onClick={darkMode} size={30} className="visible dark:hidden cursor-pointer hover:text-blue-800 hover:scale-105 transition-all" />
             <AiFillSun onClick={lightMode} size={30} className={`cursor-pointer hidden dark:block text-black dark:text-white dark:hover:text-blue-400 hover:scale-105 transition-all`} />
+            <Link target="_blank" href={"https://github.com/Saif-Arshad/JsonBlogAPI/issues"}>
+            <FaBug size={25} className="dark:text-white cursor-pointer hover:text-blue-800 dark:hover:text-blue-200 hover:scale-105 transition-all" />
+            </Link>
           </div>
         </div>
       </div>

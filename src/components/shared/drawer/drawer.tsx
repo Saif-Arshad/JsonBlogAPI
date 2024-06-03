@@ -12,6 +12,7 @@ import HomeIcon from '@mui/icons-material/Home';
 import FindInPageIcon from '@mui/icons-material/FindInPage';
 import MenuIcon from '@mui/icons-material/Menu';
 import IconButton from '@mui/material/IconButton';
+import { FaBug } from "react-icons/fa6";
 import Tooltip from '@mui/material/Tooltip';
 import Link from 'next/link';
 
@@ -64,6 +65,9 @@ export default function DrawerComponent() {
             </Link>
             <AiFillMoon onClick={darkMode} size={30} className="visible dark:hidden cursor-pointer hover:text-blue-800 hover:scale-105 transition-all" />
             <AiFillSun onClick={lightMode} size={30} className={`cursor-pointer hidden dark:block text-black dark:text-white dark:hover:text-blue-400 hover:scale-105 transition-all`} />
+            <Link target="_blank" href={"https://github.com/Saif-Arshad/JsonBlogAPI/issues"}>
+            <FaBug size={26} className="dark:text-white cursor-pointer hover:text-blue-800 dark:hover:text-blue-200 hover:scale-105 transition-all" />
+            </Link>
           </div>
     </Box>
   );

@@ -38,7 +38,7 @@ function Route() {
   ];
 
   return (
-    <div className="w-full py-7 flex justify-center">
+    <div className="w-full py-7 flex justify-center" id='routes'>
       <div className="w-full max-w-4xl">
         <h1 className='font-bold text-2xl md:text-4xl mb-4'>All the Routes</h1>
         <div className="">
