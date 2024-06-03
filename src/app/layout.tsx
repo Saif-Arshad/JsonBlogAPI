@@ -3,7 +3,7 @@ import "./globals.css";
 import {ThemeProviders} from '@/components/providers/themeprovider'
 
 export const metadata: Metadata = {
-  title: "JSON Blog API - The Next API For Your Project  ",
+  title: "DummyBlog API - JSON API For Your Next Project  ",
   description: "JSON Blog API is a dummy api for your projects",
 };
 
