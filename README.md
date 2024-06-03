@@ -6,6 +6,7 @@ The JSON Blog API is a freely accessible public REST API that provides dummy dat
 
 Next JS    
 Tailwind CSS   
+Aceternity UI
 MongoDB Atlas  
 Restful API   
 ## Hosted
