@@ -12,12 +12,12 @@ MongoDB Atlas
 Restful API   
 ## Hosted
 Hosted on Vercel here is the link
-https://jsonblogapi.vercel.app/
+https://dummyblogapi.vercel.app/
 
 ## Documentation
 
 You can find how to use that API here
-https://jsonblogapi.vercel.app/docs
+https://dummyblogapi.vercel.app/docs
 
 
 
