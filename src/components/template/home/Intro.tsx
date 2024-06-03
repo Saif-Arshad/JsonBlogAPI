@@ -24,7 +24,7 @@ function Intro() {
   ];
   return (
     <>
-      <div className="min-h-[36rem]w-screen overflow-x-hidden dark:bg-black bg-white flex-col  dark:bg-grid-small-white/[0.2] bg-grid-small-black/[0.2] relative flex items-center">
+      <div className="min-h-[36rem] w-screen overflow-x-hidden dark:bg-black bg-white flex-col  dark:bg-grid-small-white/[0.2] bg-grid-small-black/[0.2] relative flex items-center">
         <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
         <h1
           data-aos="fade-up"
