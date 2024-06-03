@@ -65,32 +65,32 @@ function SideBar() {
               </Link>
             </li>
             <li className="w-full">
-              <Link href="/docs/get-all" className={`block w-full p-2 text-gray-900 rounded-lg  ${path=='/docs/get-all'? 'bg-blue-100 dark:text-white ' : "dark:text-white"} `}>
+              <Link href="/docs/get-all" className={`block w-full p-2 text-gray-900 rounded-lg  ${path=='/docs/get-all'? 'bg-blue-100 dark:text-white  dark:bg-indigo-500 ' : "dark:text-white"} `}>
                 All Blogs
               </Link>
             </li>
             <li className="w-full">
-              <Link href="/docs/get-single" className={`block w-full p-2 text-gray-900 rounded-lg  ${path=='/docs/get-single'? 'bg-blue-100 dark:text-white ' : "dark:text-white"} `}>
+              <Link href="/docs/get-single" className={`block w-full p-2 text-gray-900 rounded-lg  ${path=='/docs/get-single'? 'bg-blue-100 dark:text-white  dark:bg-indigo-500 ' : "dark:text-white"} `}>
                 Single Blogs
               </Link>
             </li>
             <li className="w-full">
-              <Link href="/docs/get-search" className={`block w-full p-2 text-gray-900 rounded-lg  ${path=='/docs/get-search'? 'bg-blue-100 dark:text-white ' : "dark:text-white"} `}>
+              <Link href="/docs/get-search" className={`block w-full p-2 text-gray-900 rounded-lg  ${path=='/docs/get-search'? 'bg-blue-100 dark:text-white  dark:bg-indigo-500 ' : "dark:text-white"} `}>
                 Search Blogs
               </Link>
             </li>
             <li className="w-full">
-              <Link href="/docs/get-category" className={`block w-full p-2 text-gray-900 rounded-lg  ${path=='/docs/get-category'? 'bg-blue-100 dark:text-white ' : "dark:text-white"} `}>
+              <Link href="/docs/get-category" className={`block w-full p-2 text-gray-900 rounded-lg  ${path=='/docs/get-category'? 'bg-blue-100 dark:text-white  dark:bg-indigo-500 ' : "dark:text-white"} `}>
               Blog Category
               </Link>
             </li>
             <li className="w-full">
-              <Link href="/docs/get-pagination" className={`block w-full p-2 text-gray-900 rounded-lg  ${path=='/docs/get-pagination'? 'bg-blue-100 dark:text-white ' : "dark:text-white"} `}>
+              <Link href="/docs/get-pagination" className={`block w-full p-2 text-gray-900 rounded-lg  ${path=='/docs/get-pagination'? 'bg-blue-100 dark:text-white  dark:bg-indigo-500 ' : "dark:text-white"} `}>
                Blog Pagination
               </Link>
             </li>
             <li className="w-full">
-              <Link href="/docs/get-limit" className={`block w-full p-2 text-gray-900 rounded-lg  ${path=='/docs/get-limit'? 'bg-blue-100 dark:text-white ' : "dark:text-white"} `}>
+              <Link href="/docs/get-limit" className={`block w-full p-2 text-gray-900 rounded-lg  ${path=='/docs/get-limit'? 'bg-blue-100 dark:text-white  dark:bg-indigo-500 ' : "dark:text-white"} `}>
                Blog Limit
               </Link>
             </li>

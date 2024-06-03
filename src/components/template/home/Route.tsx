@@ -11,6 +11,7 @@ function Route() {
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10  bg-gradient-to-br from-purple-700 to-blue-900">
           <h1 className="text-xl md:text-4xl font-bold text-white ">Get All the blogs</h1>
+          <h3 className="text-lg  md:text-xl font-semibold mt-4 text-white">Method :  GET</h3>
           <Snippets
           code={getAllBlogs}      
           text="Get All Items"
@@ -27,6 +28,8 @@ function Route() {
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10  bg-gradient-to-br from-purple-700 to-blue-900">
           <h1 className="text-xl md:text-4xl font-bold text-white ">Get Single blogs</h1>
+          <h3 className="text-lg  md:text-xl font-semibold mt-4 text-white">Method :  GET</h3>
+         
           <Snippets
           code={getById}      
           text="Get single"
@@ -43,6 +46,8 @@ function Route() {
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10  bg-gradient-to-br from-purple-700 to-blue-900">
           <h1 className="text-xl md:text-4xl font-bold text-white ">Search Blogs</h1>
+          <h3 className="text-lg  md:text-xl font-semibold mt-4 text-white">Method :  GET</h3>
+       
           <Snippets
           code={searchBlog}      
           text="Search"
@@ -59,6 +64,8 @@ function Route() {
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10  bg-gradient-to-br from-purple-700 to-blue-900">
           <h1 className="text-xl md:text-4xl font-bold text-white ">Get Blog by Category </h1>
+          <h3 className="text-lg  md:text-xl font-semibold mt-4 text-white">Method :  GET</h3>
+         
           <Snippets
           code={categoryBlog}      
           text="Blog by category"
@@ -75,6 +82,8 @@ function Route() {
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10  bg-gradient-to-br from-purple-700 to-blue-900">
           <h1 className="text-xl md:text-4xl font-bold text-white ">Get Blogs with Pagination  </h1>
+          <h3 className="text-lg  md:text-xl font-semibold mt-4 text-white">Method :  GET</h3>
+         
           <Snippets
           code={paginationBlog}      
           text="Pagination"
@@ -91,6 +100,8 @@ function Route() {
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10  bg-gradient-to-br from-purple-700 to-blue-900">
           <h1 className="text-xl md:text-4xl font-bold text-white ">Get Blogs with Pagination and limit  </h1>
+          <h3 className="text-lg  md:text-xl font-semibold mt-4 text-white">Method :  GET</h3>
+        
           <Snippets
           code={paginationLimitBlog}      
           text="Pagination with Limit"
