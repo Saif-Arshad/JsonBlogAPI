@@ -24,17 +24,18 @@ function Intro() {
   ];
   return (
     <>
-      <div className="min-h-[36rem]w-screen overflow-x-hidden dark:bg-black bg-white flex-col  dark:bg-grid-small-white/[0.2] bg-grid-small-black/[0.2] relative flex items-center">
+      <div className="min-h-screen w-full dark:bg-black bg-white flex-col  dark:bg-grid-small-white/[0.2] bg-grid-small-black/[0.2] relative flex items-center">
         <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
         <h1
           data-aos="fade-up"
-          className="text-3xl mx-auto  text-center sm:text-5xl md:text-6xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-800 py-7 mt-20"
+          className="text-3xl mx-auto text-left sm:text-center sm:text-5xl md:text-6xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-800 py-7 mt-20"
         >
-          Build
+          Build 
           <br className="sm:hidden" />
           <FlipWords words={features} />
           <br />
-          With Dummy JSON Blog API
+          Applications with Mockup API
+         
         </h1>
 
         <p className="text-lg sm:text-xl w-11/12 sm:w-9/12 md:w-7/12 sm:text-center">

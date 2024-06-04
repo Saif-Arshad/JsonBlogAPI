@@ -9,7 +9,7 @@ function Route() {
       title: "All Blogs",
       value: "All Blogs",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10  bg-gradient-to-br from-purple-700 to-blue-900">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl py-10 px-3 md:p-10  bg-gradient-to-br from-purple-700 to-blue-900">
           <h1 className="text-xl md:text-4xl font-bold text-white ">Get All the blogs</h1>
           <h3 className="text-lg  md:text-xl font-semibold mt-4 text-white">Method :  GET</h3>
           <Snippets
@@ -26,7 +26,7 @@ function Route() {
       title: "Get Single",
       value: "Get Single",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10  bg-gradient-to-br from-purple-700 to-blue-900">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl py-10 px-3 md:p-10  bg-gradient-to-br from-purple-700 to-blue-900">
           <h1 className="text-xl md:text-4xl font-bold text-white ">Get Single blogs</h1>
           <h3 className="text-lg  md:text-xl font-semibold mt-4 text-white">Method :  GET</h3>
          
@@ -44,7 +44,7 @@ function Route() {
       title: "Search item",
       value: "Search Item",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10  bg-gradient-to-br from-purple-700 to-blue-900">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl py-10 px-3 md:p-10  bg-gradient-to-br from-purple-700 to-blue-900">
           <h1 className="text-xl md:text-4xl font-bold text-white ">Search Blogs</h1>
           <h3 className="text-lg  md:text-xl font-semibold mt-4 text-white">Method :  GET</h3>
        
@@ -62,7 +62,7 @@ function Route() {
       title: "Get Category",
       value: "Get Category",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10  bg-gradient-to-br from-purple-700 to-blue-900">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl py-10 px-3 md:p-10  bg-gradient-to-br from-purple-700 to-blue-900">
           <h1 className="text-xl md:text-4xl font-bold text-white ">Get Blog by Category </h1>
           <h3 className="text-lg  md:text-xl font-semibold mt-4 text-white">Method :  GET</h3>
          
@@ -80,7 +80,7 @@ function Route() {
       title: "Pagination",
       value: "Pagination",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10  bg-gradient-to-br from-purple-700 to-blue-900">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl py-10 px-3 md:p-10  bg-gradient-to-br from-purple-700 to-blue-900">
           <h1 className="text-xl md:text-4xl font-bold text-white ">Get Blogs with Pagination  </h1>
           <h3 className="text-lg  md:text-xl font-semibold mt-4 text-white">Method :  GET</h3>
          
@@ -98,7 +98,7 @@ function Route() {
       title: "Pagination with Limit",
       value: "Pagination with Limit",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10  bg-gradient-to-br from-purple-700 to-blue-900">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl py-10 px-3 md:py-10  bg-gradient-to-br from-purple-700 to-blue-900">
           <h1 className="text-xl md:text-4xl font-bold text-white ">Get Blogs with Pagination and limit  </h1>
           <h3 className="text-lg  md:text-xl font-semibold mt-4 text-white">Method :  GET</h3>
         
@@ -117,7 +117,7 @@ function Route() {
  
   return (
     <>
- <div className="h-[65rem] sm:h-[40rem] [perspective:1000px] relative b flex flex-col max-w-5xl mx-auto w-full  items-start justify-start my-40">
+ <div className="h-[56rem] sm:h-[45rem] md:h-[40rem] [perspective:1000px] relative b flex flex-col max-w-5xl mx-auto w-full  items-start justify-start my-40">
       <Tabs tabs={tabs} />
     </div>
 

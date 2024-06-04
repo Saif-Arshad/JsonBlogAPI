@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 function TriedLorumData() {
   return (
-    <div className="w-full sm:w-9/12 my-5 md:my-0 text-black dark:text-white flex flex-col items-center">
+    <div className="w-full sm:w-9/12 my-5 text-black dark:text-white flex flex-col items-center">
          <h1 data-aos="fade-down" className='text-2xl md:text-5xl font-semibold md:font-bold text-center'>Got tired of Lorem ipsum data?</h1>
         <p className='text-lg md:text-xl text-center mt-7 '>
         By using the JSON Blog API, you gain access to a variety of REST Endpoints that provide JSON data. This allows you to easily build the frontend of your website using your preferred framework and library, without the need to create a backend from scratch
