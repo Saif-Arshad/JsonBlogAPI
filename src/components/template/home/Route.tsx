@@ -98,7 +98,7 @@ function Route() {
       title: "Pagination with Limit",
       value: "Pagination with Limit",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl py-10 px-3 md:py-10  bg-gradient-to-br from-purple-700 to-blue-900">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl py-10 px-3 md:p-10  bg-gradient-to-br from-purple-700 to-blue-900">
           <h1 className="text-xl md:text-4xl font-bold text-white ">Get Blogs with Pagination and limit  </h1>
           <h3 className="text-lg  md:text-xl font-semibold mt-4 text-white">Method :  GET</h3>
         
